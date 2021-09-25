@@ -7,7 +7,7 @@
 	with custom scheduling!
 ]]
 
-local RunService: RunService = game:GetService("RunService")
+local RunService = game:GetService("RunService")
 
 type CallbackFunction = (deltaTime: number) -> ()
 
